@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    flex: 3;
+    background-image: url(../images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+}
+
+.content {
+    flex: 7;
+}
+
+.logo-container {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.logo-text {
+    font-size: 3rem;
+    color: white;
+    font-family: "Norse";
+    font-weight: bold;
+}
