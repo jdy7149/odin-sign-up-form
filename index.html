@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin-sign-up-form</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo-container">
+                <img src="./images/odin-lined.png" alt="logo"/>
+                ODIN
+            </div>
+        </div>
+        <div class="content">
+            <div class="description">
+                This is not a real online service! You know you need something like this
+                in your life to help you realize your deepest dreams. Sign up now to get
+                started. You know you want to.
+            </div>
+            <form action="#">
+                <h2>Let's do this!</h2>
+                <div class="row">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name">
+                </div>
+                <div class="row">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" id="phone">
+                </div>
+                <div class="row">
+                    <label for="pwd">PASSWORD</label>
+                    <input type="password" id="pwd">
+                    <label for="confirm-pwd">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm-pwd">
+                </div>
+            </form>
+            <div class="btn-container">
+                <button type="submit">Create Account</button>
+            </div>
+            <div class="login-container">
+                Already have an account? <a href="#">Log in</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
