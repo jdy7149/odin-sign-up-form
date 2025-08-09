@@ -11,7 +11,7 @@ Use a better box model (opinionated).
 
 @font-face {
     font-family: 'Norse';
-    src: url('./fonts/Norse-Bold.woff2') format('woff2');
+    src: url('../fonts/Norse-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -32,9 +32,9 @@ Use a better box model (opinionated).
 
 html {
 	font-family:
+		"Roboto",
 		system-ui,
 		'Segoe UI',
-		Roboto,
 		Helvetica,
 		Arial,
 		sans-serif,
