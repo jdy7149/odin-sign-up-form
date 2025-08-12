@@ -77,4 +77,11 @@
     background-color: #596D48;
     border: none;
     border-radius: 6px;
+    font-weight: bold;
+}
+
+.bottom-container > div > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #596D48;
 }
