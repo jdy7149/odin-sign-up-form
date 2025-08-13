@@ -1,3 +1,11 @@
+:root {
+    --content-bg-color: #f2f2f2;
+    --btn-color: #596D48;
+    --input-border-white: #E5E7EB;
+    --input-border-red: red;
+    --input-border-blue: blue;
+}
+
 .container {
     display: flex;
     height: 100vh;
@@ -30,7 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    background-color: #f2f2f2;
+    background-color: var(--content-bg-color);
 }
 
 .description {
@@ -79,12 +87,17 @@
 
 .input-wrapper input {
     width: 260px;
-    border: 1px solid #E5E7EB;
+    border: 1px solid var(--input-border-white);
     border-radius: 4px;
+    padding: 6px;
 }
 
 .input-wrapper input[type="password"]:invalid {
-    border: 1px solid red;
+    border-color: var(--input-border-red);
+}
+
+.input-wrapper input:focus {
+    border-color: var(--input-border-blue);
 }
 
 .bottom-container {
@@ -98,7 +111,7 @@
 .bottom-container > button {
     padding: 12px 40px;
     color: white;
-    background-color: #596D48;
+    background-color: var(--btn-color);
     border: none;
     border-radius: 6px;
     font-weight: bold;
@@ -107,5 +120,5 @@
 .bottom-container > div > a {
     text-decoration: none;
     font-weight: bold;
-    color: #596D48;
+    color: var(--btn-color);
 }
