@@ -2,7 +2,7 @@
 
 A basic sign-up form project from [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form).
 
-**Live Preview:**  [View on GitHub Pages](https://jdy7149.github.io/odin-sign-up-form)
+**Live Preview:**   [View on GitHub Pages](https://jdy7149.github.io/odin-sign-up-form)
 
 ## Built With
 - HTML5
